@@ -19,6 +19,13 @@ body {
 	width: 100%;
 }
 
+.bottom-bar {
+	background-color: black;
+	height: auto;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
 .logo-bar {
 	background-color: #004E7F;
 	height: 50px;
@@ -49,4 +56,16 @@ body {
 	text-align: right;
 	line-height: 22px;
     font: 'Roboto Condensed', sans-serif;
+}
+
+.copyright {
+	color: white;
+	margin-left: 5px;
+	margin-top: 10px;
+	padding-top: 10px;
+    font: 14px/22px 'Roboto Condensed', sans-serif;
+}
+
+.cc-images {
+	margin-top: 8px;
 }
