@@ -1,5 +1,5 @@
 .container-fluid {
-	width: 1170px;
+	max-width: 1170px;
 	background-color: white;
 	display: block;
 	margin-left: auto;
@@ -19,11 +19,34 @@ body {
 	width: 100%;
 }
 
+.logo-bar {
+	background-color: #004E7F;
+	height: 50px;
+	width: 100%;
+}
+
 .top-phone {
-	text-align: right;
+	float: right;
 	color: white;
 	margin-right: 10px;
 	margin-top: 10px;
     font: 14px/22px 'Roboto Condensed', sans-serif;
 }
 
+#logo {
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+#sm-logos {
+	margin-bottom: 15px;
+}
+
+.header-info {
+	color: #EB5824;
+	margin-top: 50px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 22px;
+    font: 'Roboto Condensed', sans-serif;
+}
