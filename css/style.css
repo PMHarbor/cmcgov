@@ -38,6 +38,12 @@ body {
     font: 14px/22px 'Roboto Condensed', sans-serif;
 }
 
+.product-button {
+	height: 50px;
+	color: white;
+	background-color: #E9592F;
+}
+
 #logo {
 	margin-top: 30px;
 	margin-bottom: 5px;
@@ -100,7 +106,6 @@ body {
 	height: auto;
 	background-color: white;
 	padding: 20px;
-	margin-top: 20px;
 	margin-right: 20px;
 	max-width: 700px;
 	border-radius: 6px;
@@ -111,12 +116,23 @@ h2 {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-p {
-	font-family: 'Roboto Condensed', sans-serif;
+ #div-product {
+ 	background-color: white; 
+ 	border: 1px solid #E8E8E8; 
+ 	margin-top: 15px; 
+ 	float: right;
+
+ }
+
+ #div-product-child {
+ 	margin-top: 10px; 
+ 	margin-bottom: 10px; 
+ 	margin-left: -5px; 
+ 	margin-right: -5px; 
+ 	background-color: #E8E8E8; 
+ 	padding: 20px;
 }
 
-.btn-primary {
-	height: 50px;
-	color: white;
-	background-color: black;
+p {
+	font-family: 'Roboto Condensed', sans-serif;
 }
