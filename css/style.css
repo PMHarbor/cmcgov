@@ -136,6 +136,10 @@ p {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+table {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
 hr {
     display: block;
     height: 1px;
@@ -172,4 +176,25 @@ p>b>a {
 p>b>a:hover {
 	color: #EB5824;
 	text-decoration: underline;
+}
+
+th {
+	width: 250px;
+	background-color: #D8D7D5;
+	border: 1px solid #D8D7D5;
+}
+
+#bulk {
+	border: 1px solid #D8D7D5;
+}
+
+#call {
+	margin-top: 10px;
+	background-color: #EB5824;
+	color: white;
+	border-radius: 0px;
+}
+
+#call:hover {
+	background-color: #004E7F;
 }
