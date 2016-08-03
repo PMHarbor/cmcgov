@@ -47,6 +47,7 @@
 
 #sm-logos {
 	margin-bottom: 15px;
+	float: left;
 }
 
 .header-info {
@@ -87,6 +88,13 @@
 	background-color: white;
 	float: left;
 	margin-top: 15px;
+}
+
+.img-product2 {
+	padding: 20px 40px 20px 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .img-container {
@@ -197,6 +205,19 @@ th {
 	background-color: #004E7F;
 }
 
+#call2 {
+	margin-top: 20px;
+	width: 100%;
+	height: 40px;
+	background-color: #EB5824;
+	color: white;
+	border-radius: 0px;
+}
+
+#call2:hover {
+	background-color: #004E7F;
+}
+
 .product-row {
 	width: 98%;
 	display: block;
@@ -243,4 +264,36 @@ li {
 	font-family: Verdana, Arial, Helvetica;
     font-size: 12px;
     line-height: 18px;
+}
+
+.eotech {
+	padding: 14px 20px;
+    margin: 20px 0 20px;
+    font-size: 24px;
+    background: #252a2f;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.product-table {
+	width: 100%;
+	text-align: left;
+}
+
+.product-col {
+	font-size: 18px;
+    text-transform: uppercase;
+}
+
+.stars {
+	height: 18px;
+}
+
+.prod-col {
+	border: 1px solid #efefef; 
+	padding: 5px;
+}
+.price {
+	text-decoration: line-through;
+	font-weight: bold;
 }
