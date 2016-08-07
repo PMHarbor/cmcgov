@@ -97,6 +97,13 @@
 	margin-right: auto;
 }
 
+.img-product3 {
+	padding: 10px;
+	background-color: white;
+	float: left;
+	margin-top: 5px;
+}
+
 .img-container {
 	max-width: 500px;
 	float: left;
