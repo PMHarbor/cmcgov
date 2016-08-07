@@ -1,1 +1,5 @@
-// Empty JS for your own code to be here
+var months = ['January','February','March','April','May','June','July',
+'August','September','October','November','December'];       
+var tomorrow = new Date();
+tomorrow.setTime(tomorrow.getTime() + (1000*3600*24));       
+document.getElementById("spanDate").innerHTML = tomorrow.getFullYear();

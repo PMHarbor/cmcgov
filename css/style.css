@@ -304,3 +304,13 @@ li {
 	text-decoration: line-through;
 	font-weight: bold;
 }
+
+.buynow2 {
+	width: 150px;
+	margin: 10px 0px -15px 0px;
+}
+
+.buynow1 {
+	width: 150px;
+	margin: 20px 20px 20px 0px;
+}
