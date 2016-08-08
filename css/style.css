@@ -192,6 +192,14 @@ a {
 	color: #004E7F;
 }
 
+a>h4 {
+	color: #004E7F;
+}
+
+a>h4:hover {
+	color: #EB5824;
+}
+
 #modal-577302:hover {
 	color: #EB5824;
 }
