@@ -1,0 +1,31 @@
+Add this HTML Snippet anywhere you want to have the "request quote" button.  You may have to play with the margins in the "container-fluid" div tag and the paragraph tag:
+
+<div class="container-fluid" style="margin-top: 30px; margin-left: -15px">
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="http://www.cmcgov.com/Government-Quote-Request/"><div class="quote" style="margin-bottom: 10px;"></div></a>
+        </div><!-- col-sm-4 -->
+        <div class="col-sm-8">
+            <p style="max-width: 400px; font-size: 12px; margin-left: -10px;"><strong>GOVERNMENT AND COMMERCIAL BUYERS:</strong> GOVERNMENT CONTRACT AND QUANTITY PRICING IS AVAILABLE. CLICK ON THE BLUE BUTTON TO GET A PRICE QUOTATION ON THIS AND ANY OTHER ITEMS YOU NEED TO PURCHASE.</p>
+        </div><!-- col-sm-8 -->
+    </div><!-- row -->
+</div><!-- container-fluid -->
+
+
+
+Add the following to your CSS stylesheet:
+
+.quote {
+	background:url(http://1.cmcgov.com/button/get-quote-button-no-hover.jpg);
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 150px;
+}
+
+.quote:hover {
+	background:url(http://1.cmcgov.com/button/get-quote-button-hover.jpg);
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 150px;
+}
+

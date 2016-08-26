@@ -357,3 +357,18 @@ li {
 	padding: 15px;
 
 }
+
+.quote {
+	background:url(http://1.cmcgov.com/button/get-quote-button-no-hover.jpg);
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 150px;
+}
+
+.quote:hover {
+	background:url(http://1.cmcgov.com/button/get-quote-button-hover.jpg);
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 150px;
+}
+
